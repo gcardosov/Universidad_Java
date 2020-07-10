@@ -27,6 +27,7 @@ public class Variables {
             System.out.println(miVariableEntera2);
             
             var miVariableCadena2 = "Inferencia";
-            System.out.println(miVariableCadena2);
+            System.out.println("miVariableCadena2 = " + miVariableCadena2);
+            
     }
 }
