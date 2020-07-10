@@ -1,3 +1,6 @@
+
+import java.util.Scanner;
+
 ///////////////////////////////////////
 //Comentario simple                 ///
 //Mi clase en java                  ///
@@ -7,27 +10,16 @@
 public class HolaMundo {
 
     public static void main(String args[]) {
-        //Caracteres especiales en Java
-        //salto de linea \n
-        //tabulador \t
-        //retroceso \b
-        //Comilla simple y comilla doble
-        //hay casos especificos para la comilla simple
-        //para la comilla doble se utiliza la \ para indicar
-        //que es comilla doble como en el ejemplo 
-        //debemos tener en cuenta donde se rompe la cadena 
-        var nombre = "Karla";
-        System.out.println("Nueva linea: \n" + nombre);
-        System.out.println("Tabulador: \t" + nombre);
-        //Se retrocede un caracter por cada \b que exista
-        //1
-        System.out.println("Retroceso: \b" + nombre);
-        //2
-        System.out.println("Retroceso: \b\b" + nombre);
-        System.out.println("Comilla simple: \'" + nombre + "\'");
-        System.out.println("Comilla doble: \"" + nombre + "\"");
-        
-        
-        
+        //Uso de la clase Scanner
+        System.out.println("Escribe tu nombre:");
+        //Clase Scanner para introducir
+        //Instancemaos una clase de la clase escaner llamada
+        //consola que va a recibir entradas a traves de consola
+        Scanner consola = new Scanner(System.in);
+        //El metodo nextLine nos permite leer toda una linea en consola
+        var usuario = consola.nextLine();
+        System.out.println("usuario = " + usuario);
+        var titulo = consola.nextLine();
+        System.out.println("Resultado = " + titulo + " " + usuario);
     }
 }
