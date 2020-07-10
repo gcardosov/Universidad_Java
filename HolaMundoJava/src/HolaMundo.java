@@ -7,26 +7,25 @@
 public class HolaMundo {
 
     public static void main(String args[]) {
-        //Concatenacion de cadenas
-        var usuario = "Juan";
-        var titulo = "Ingeniero";
-        var union = titulo + " " + usuario;
-        System.out.println("union = " + union);
-        
-        var i = 3;
-        var j = 4;
-        
-        System.out.println(i + j); //Realiza la suma de numeros
-        
-        System.out.println(i + j + usuario);
-        //empieza de izquierda a derecha por el concepto de contexto caena
-        //por eso en esiguiente ejeplo imprime "Juan34"
-        System.out.println(usuario + i + j);
-        //Lo anterior se resuleve usando parentesis
-        System.out.println(usuario + (i + j));
-        
-        
-        
+        //Caracteres especiales en Java
+        //salto de linea \n
+        //tabulador \t
+        //retroceso \b
+        //Comilla simple y comilla doble
+        //hay casos especificos para la comilla simple
+        //para la comilla doble se utiliza la \ para indicar
+        //que es comilla doble como en el ejemplo 
+        //debemos tener en cuenta donde se rompe la cadena 
+        var nombre = "Karla";
+        System.out.println("Nueva linea: \n" + nombre);
+        System.out.println("Tabulador: \t" + nombre);
+        //Se retrocede un caracter por cada \b que exista
+        //1
+        System.out.println("Retroceso: \b" + nombre);
+        //2
+        System.out.println("Retroceso: \b\b" + nombre);
+        System.out.println("Comilla simple: \'" + nombre + "\'");
+        System.out.println("Comilla doble: \"" + nombre + "\"");
         
         
         
