@@ -19,5 +19,14 @@ public class Variables {
             miVariableCadena = "Adios";
             System.out.println(miVariableCadena);
             
+            //Inferencia de tipos en Java 
+            //Introducido a partir de la version 
+            //10 del JDK
+            // var - inferencia 
+            var miVariableEntera2 = 15;
+            System.out.println(miVariableEntera2);
+            
+            var miVariableCadena2 = "Inferencia";
+            System.out.println(miVariableCadena2);
     }
 }
