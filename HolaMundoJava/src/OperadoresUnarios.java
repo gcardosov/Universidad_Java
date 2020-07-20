@@ -43,12 +43,12 @@ public class OperadoresUnarios {
         System.out.println("h = " + h);
         
         
-        //postdecremento 
-        
+        //postdecremento      
         var k = 4;
         var l = k--;
-        System.out.println("k = " + k);
-        System.out.println("l = " + l);
+        //Ya esta decrementada por que es la segunda vez que se usa
+        System.out.println("k = " + k);   
+        System.out.println("l = " + l); //tiene pendiente el decremento 
 
      
        
