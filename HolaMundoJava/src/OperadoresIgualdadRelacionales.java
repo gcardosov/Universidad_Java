@@ -28,6 +28,26 @@ public class OperadoresIgualdadRelacionales {
         var d = (a != b);
         System.out.println("d = " + d);
         
+        //OPERADORES RELACIONALES
+        
+        var g = a >= b; //Mayor , mayor o igual 
+        System.out.println("g = " + g);
+        
+        if(a % 2 == 0){
+            System.out.println("Es numero par");
+        }else{
+            System.out.println("NO es numero par");
+        }
+        
+        var edad = 15;
+        var adulto = 18;
+        
+        if(edad >= adulto){
+            System.out.println("Eres mayor de edad");
+        }else{
+            System.out.println("NO eres mayor de edad");
+        }
+        
         
           
         
