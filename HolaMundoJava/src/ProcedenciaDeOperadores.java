@@ -29,9 +29,9 @@ public class ProcedenciaDeOperadores {
         System.out.println("resultado = " + resultado);
         
         var resultado2 = (4 + 5) * 6 / 3;
-        //(9) * 6
+        // (9) * 6
         // 54 / 3
-        //18
+        // 18
         
         System.out.println("resultado2 = " + resultado2);
         
