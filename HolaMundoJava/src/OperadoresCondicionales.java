@@ -20,7 +20,7 @@ public class OperadoresCondicionales {
         var vacaciones = false;
         var diaDescanzo = true;
         
-        if( vacaciones || diaDescanzo){
+        if( vacaciones || diaDescanzo){//ya te la sabes pa con el or es una u otra 
              System.out.println("El padre puede asistir al juego de su hijo");
         }else{
             System.out.println("El padre esta ocupado");
