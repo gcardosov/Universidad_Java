@@ -1,5 +1,5 @@
 
-package Ciclos;
+package Ciclos.While;
 
 public class While {
     //Se revisa la condicion 
