@@ -9,7 +9,7 @@ public class Continue {
         
         for(var contador=0; contador<3; contador++){
             if(contador % 2 != 0){
-                continue;
+                //continue;
             }
              System.out.println("contador = " + contador);
         }    
