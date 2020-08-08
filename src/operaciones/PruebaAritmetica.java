@@ -12,8 +12,12 @@ public class PruebaAritmetica {
         int resultado = aritmetica1.sumarConRetorno();
         System.out.println("resultado desde la clase de prueba = " + resultado);
         
-        aritmetica1.sumarConArgumentos(5, 8);
+        resultado = aritmetica1.sumarConArgumentos(5, 8);
         System.out.println("reultado usando argumentos = " + resultado);
+        
+        //El aputador this apunta a la direccion de memoria de un objeto
+        //que se esta ejecutando 
+        //Los metodos estatico sno pueden acceder al operador this
         
     }    
     
