@@ -8,6 +8,21 @@ public class Aritmetica {
    int a;
    int b;
    
+   
+   //Constructor vacio
+   //Lleva el mismo nombre de la clase
+   //Constructor es una subrutina cuyo objetivo es inicilizar
+   //un objeto 
+   //En el constructor se asignan los valores iniciales del 
+   //nuevo objeto
+   //deben devclararse como publicos
+   
+   public Aritmetica(){
+       System.out.println("Ejecutando constructor");
+   }
+   
+   
+   
    //Metodos
    //Modificadores de acceso
    //Definiendo el metodo
