@@ -21,6 +21,12 @@ public class Aritmetica {
        System.out.println("Ejecutando constructor");
    }
    
+   public Aritmetica(int a, int b){//No se puede usar var en la definicion de argumentos de metodos
+        this.a = a;
+        this.b = b;
+        System.out.println("Ejecutando constructor con argumentos");
+   }
+   
    
    
    //Metodos
