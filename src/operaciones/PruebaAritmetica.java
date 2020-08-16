@@ -21,8 +21,7 @@ public class PruebaAritmetica {
        
         Aritmetica aritmetica2 = new Aritmetica(5, 8);
         System.out.println("aritmetica2 a: " + aritmetica2.a );
-        System.out.println("aritmetica2 b: " + aritmetica2.b);
-        
+        System.out.println("aritmetica2 b: " + aritmetica2.b);        
         
         /*
         aritmetica1.a = 3;
@@ -39,6 +38,23 @@ public class PruebaAritmetica {
         //que se esta ejecutando 
         //Los metodos estatico sno pueden acceder al operador this*/
         
+        
+        
+        //el manejo de memoria en java depende del tipo de variable
+        //con el que se este trabajando 
+        //las variables que no son objetos se almacenan en
+        //la memoria stack 
+        //las variables de tipo objeto se almacenan 
+        //en memoria heap
+        //el recolector de basura o garbaje colector
+        //elimina las variables que ya no esten siendo 
+        //referenciadas
+        aritmetica1 = null;
+        //mandar a llamar la linea de garbaje colector 
+        //implica consumir muchos recursos ademas        
+        //que no garantiza limpiar la memoria 
+        //System.gc();
+    
     }    
     
     
