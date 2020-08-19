@@ -36,7 +36,7 @@ public class Aritmetica {
       int resultado = a + b; //resultado es una variable local
        System.out.println("resultado = " + resultado);       
    }    
-   
+        
        public int sumarConRetorno(){
 //        int resultado = a + b;
 //        return resultado;     
