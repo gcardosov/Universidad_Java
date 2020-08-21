@@ -9,8 +9,14 @@ public class PasoPorValor {
         //a nuestro metodo cambio de valor
         cambioValor(x);
         System.out.println("x nuevo valor = " + x);
+        //SI QUEREMOS HACER EL CAMBIO 
+        //x = cambioValor(x)
     }
     
+    //public static int cambioValor(int arg1){
+    //     System.out.println("arg1 = " + arg1);
+    //      return arg1 = 15
+    //      }
     
     public static void cambioValor(int arg1){
         System.out.println("arg1 = " + arg1);

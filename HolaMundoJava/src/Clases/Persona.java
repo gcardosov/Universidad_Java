@@ -21,8 +21,12 @@ package Clases;
 
 public class Persona {
     //Atributos de la clase
-    String nombre;
-    String apellido; 
+    //En un principio los declaramos sin el modificador de acceso public
+    //en la clase 59 lo agregamos para poder acceder desde otra clase
+    //que esta en otro paquete
+    
+    public String nombre;
+    public String apellido; 
     
     //Metodos de la clase
     //Pueden recivir o no arguementos 
