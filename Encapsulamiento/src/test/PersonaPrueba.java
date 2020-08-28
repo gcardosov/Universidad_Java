@@ -24,12 +24,15 @@ public class PersonaPrueba {
             //Persona persona2 = new Persona("Julieta", 15000.00, true);
             //System.out.println("persona2 nombre: " + persona2.getNombre());
             //persona2.setNombre("Blanca");
-            /*
+            /* 
             System.out.println("persona2 nombre con cambio:" + persona2.getNombre());
             System.out.println("persona sueldo: " + persona2.getSueldo());
             System.out.println("persona eliminada" + persona2.isEliminado());
             */
             System.out.println("persona1: " +persona1.toString());
+            
+            //SI EL METODO toString esta implementado en la clase persona
+            //al hacer un print se ejecutara en automatico
             
     }
     
