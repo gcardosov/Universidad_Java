@@ -50,7 +50,13 @@ public class Persona {
         this.eliminado = eliminado;
     }
     
-    
+    //El metodo toString
+    //Convierte en cadena cada uno de los atributos que contiene la clase 
+    public String toString(){
+        return "Persona [nombre: "+ this.nombre + 
+                " , sueldo: " + this.sueldo +
+                " , eliminado: " + this.eliminado +"]";
+    }
     
     
     
