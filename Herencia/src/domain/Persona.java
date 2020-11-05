@@ -17,7 +17,7 @@ public class Persona {
     //para crear objetos de diferente forma 
     public Persona(String nombre){
         this.nombre = nombre;
-    
+     
     }
 
     public Persona(String nombre, char genero, int edad, String direccion) {
