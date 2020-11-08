@@ -1,7 +1,7 @@
 
 package test;
 
-import operaciones.Operaciones;
+import Operaciones.Operaciones;
 
 public class TestOperaciones {
     public static void main(String[] args) {
